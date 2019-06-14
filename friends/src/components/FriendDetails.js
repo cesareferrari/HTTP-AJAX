@@ -1,6 +1,6 @@
 import React from 'react';
 
-const FriendPage = props => {
+const FriendDetails = props => {
   return(
     <div>
       {props.friend.id} - 
@@ -11,4 +11,4 @@ const FriendPage = props => {
   );
 }
 
-export default FriendPage;
+export default FriendDetails;
